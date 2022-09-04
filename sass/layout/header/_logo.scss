@@ -1,0 +1,31 @@
+.logo {
+    color: var(--axent-text-color);
+    font-family: 'Raleway', sans-serif;
+    @include fonts (700, 24, 1.2);
+    text-decoration: none;
+
+    @media screen and (min-width:1200px) {
+    @include fonts (700, 26, 1.2);
+    }
+}
+
+.menu-mobile__button-open {
+    display: inline-flex;
+    margin-left: auto;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+    @media screen and (min-width:768px) {
+        display: none;
+    }
+}
+
+.menu-mobile__svg {
+  display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+

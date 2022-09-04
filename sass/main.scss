@@ -1,0 +1,31 @@
+@import './utils/variables';
+@import './utils/placeholders';
+
+@import './components/components';
+
+@import './layout/header/mob-menu';
+@import './layout/header/logo';
+@import './layout/header/nav';
+@import './layout/header/contacts';
+
+@import './layout/main-section/mainsection';
+
+@import './layout/modal/backdrop';
+@import './layout/modal/modal';
+@import './layout/modal/forms';
+
+@import './layout/feature-section/features';
+
+@import './layout/type-work-section/typework';
+
+@import './layout/team-section/team';
+
+@import './layout/clients-section/clients';
+
+@import './layout/footer/footer-adress';
+@import './layout/footer/footer-links';
+@import './layout/footer/footer-forms';
+
+@import './layout/portfolio/portfolio-nav';
+@import './layout/portfolio/portfolio-list';
+

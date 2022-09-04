@@ -1,0 +1,18 @@
+:root {
+    --title-text-color: #212121;
+    --prymary-text-color: #757575;
+    --axent-text-color: #2196F3;
+    --Wite-text-color: #FFFFFF;
+    --background-main-color: #F5F4FA;
+    --background-footer-color: #2F303A;
+}
+
+body {
+    background-color: var(--Wite-text-color);
+    color: var(--prymary-text-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}

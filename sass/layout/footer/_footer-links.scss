@@ -1,0 +1,33 @@
+.link-block {
+    margin: 60px auto;
+    width: 206px;
+    text-align: center;
+
+        @media screen and (min-width:768px) {
+            margin: 0;
+        }
+
+        @media screen and (min-width:1200px) {
+            margin-left: 70px; 
+            text-align: left; 
+        }
+    
+}
+
+.icon-title {
+    margin-top: 0;
+    margin-bottom: 20px;
+
+    @include fonts (700, 14, 1.14);
+    color: var(--Wite-text-color);
+    text-transform: uppercase; 
+}
+
+
+.footer-soc-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+
