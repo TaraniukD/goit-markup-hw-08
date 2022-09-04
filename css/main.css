@@ -45,6 +45,10 @@ body {
   overflow: hidden;
 }
 
+.no-scroll {
+  position: fixed;
+}
+
 .list {
   list-style: none;
   padding: 0;
@@ -651,7 +655,7 @@ body {
 .policy-label {
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.17;
+  line-height: 1.15;
   letter-spacing: 0.03em;
   color: var(--prymary-text-color);
   cursor: pointer;

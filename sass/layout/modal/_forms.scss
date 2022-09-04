@@ -96,7 +96,7 @@
 }
 
 .policy-label {
-    @include fonts (400, 12, 1.17);
+    @include fonts (400, 12, 1.15);
 
     color: var(--prymary-text-color);
     cursor: pointer;
