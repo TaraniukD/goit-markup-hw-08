@@ -1,3 +1,17 @@
+.header {
+    border-bottom: 1px solid #ECECEC;
+    >.conteiner {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    
+    @media screen and (min-width:768px) {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+}
+
 .logo {
     color: var(--axent-text-color);
     font-family: 'Raleway', sans-serif;

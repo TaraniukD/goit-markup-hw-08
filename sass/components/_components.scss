@@ -66,12 +66,13 @@
 
 .section-title {
     margin-top: 0;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     color: var(--title-text-color);
     @include fonts (700, 28, 1.17);
     text-align: center;
-   
+  
     @media screen and (min-width: 1200px) {
+            margin-bottom: 50px;
             @include fonts (700, 36, 1.17);
         }
 }
